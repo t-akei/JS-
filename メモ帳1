@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <!--src="○○.js"で、外部のJavaScriptファイルを読み込みます。-->
+    <!--この場合app.jsというファイルを作りそちらのファイルに-->
+    <!--JavScript文を直接書く-->
+    
+    app.jsファイル
+    alert('Hello World');
+    
+    もしくは
+    
+    <script>
+      alert('Hello World');
+    </script>
+    <!--こちらはJS文を<script></script>タグで挟んで-->
+    <!--直接HTMLファイルに記述する。-->
+  </body>
+</html>

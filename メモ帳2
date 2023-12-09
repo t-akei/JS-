@@ -1,0 +1,14 @@
+変数の書き方
+・Rubyの場合
+
+hello = "Hello World"
+puts hello
+実行結果
+"Hello World"
+
+・JavaScriptの場合
+
+let hello = "Hello World";　　let 変数名 = 代入する内容(初期値);
+alert(hello);
+実行結果
+アラートウィンドウにHello Worldと出る
