@@ -49,4 +49,12 @@ alert('Hello' + 'World');
 ↓
 実行結果は、アラートウィンドウに
 HelloWorld
-と表示される
+と表示される。
+変数を利用する場合には、それぞれの文字列を変数に格納して結合させます。
+(例)
+let str1 = 'Hello';
+let str2 = 'World!';
+alert(str1 + str2);
+↓
+実行結果は、アラートウィンドウに
+HelloWorld!
