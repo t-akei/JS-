@@ -67,3 +67,30 @@ for(i = 1; i < 11; i++){
 
 alert('1から10まで足し算した結果は' + numm + 'です');
 // アラートウィンドウに計算結果を表示
+
+
+// 簡単な関数の記述
+// function addString(strA){
+// functionでaddStringを関数として定義して、引数にはstrAを定義している
+    // let addStr = "Hello" + strA;
+// letでaddStrを変数として定義し、文字列"Hello"と
+// 引数strAの文字列を変数に代入している
+    // return addStr;
+// 結合結果の格納された「addStr」を、関数の戻り値としています。
+// returnを記述することで、出力結果が表示されます。
+// }
+// これで与えられた引数を基にして
+// 特定の文字列を結合する関数が作成できました
+
+
+let alertString;
+// メイン部分。alertStringを変数として宣言
+alertString = addString("WebCamp");
+// 関数addStringを呼び出し、変数alertStringに代入
+alert(alertString);
+// 変数の中身ををアラートウィンドウで表示
+// ↓作成した関数
+function addString(strA){
+    let addStr = "Hello " + strA;
+    return addStr;
+}
