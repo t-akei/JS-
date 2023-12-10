@@ -42,3 +42,11 @@ alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は'
 
 
 // do...while文
+let melon = 150;
+let strbery = 130;
+
+do{
+    alert('メロンもいちごも美味しい');
+}while(melon < strbery);
+
+alert('メロン高い');
