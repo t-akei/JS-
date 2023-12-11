@@ -102,9 +102,33 @@ let promptStr = prompt('何か好きな文字を入力してください');
 // それに文字を打ち込むと、入力された文字列はpromot関数の戻り値(=出力される値)
 // として変数「promptStr」に格納されてアラートウィンドウに表示される。
 alert(promptStr);
+
 // prompt()関数はJavaScriptで利用できる関数の一つ
 // ウェブページ上でユーザーに対話的に情報を入力してもらうために使用します。
 // prompt関数を呼び出すと、ウェブブラウザがダイアログボックスを表示し
 // ユーザーはテキストボックスに情報を入力することができます。
 // ユーザーが入力した情報は、prompt関数の返り値として取得できます。
 // 返り値は文字列として扱われます。
+
+
+// 複数の関数を定義する
+// 今回は、ユーザが入力したじゃんけんの手（グー・チョキ・パー）と
+// JavaScriptがランダムに出すじゃんけんの手を比較し
+// 勝ち負けの結果を表示させる関数を定義します。
+let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください');
+
+alert('あなたの選んだ手は' + user_hand + 'です。');
+
+function getJShand(){
+    let js_hand_num = Math.floor(Math.random() * 3 );
+    
+    if(js_hand_num == 0){
+        js_hand = "グー";
+    } else if(js_hand_num == 1){
+        js_hand = "チョキ";
+    } else if(js_hand_num == 2){
+        js_hand = "パー";
+    }
+    
+    return js_hand;
+}
